@@ -1,7 +1,19 @@
 const Index = () => {
   return (
-    <main className="min-h-screen bg-black flex items-center justify-center px-6 py-16">
-      <p className="text-white text-base md:text-lg leading-relaxed max-w-lg whitespace-pre-line font-light">
+    <main
+      className="min-h-screen flex items-center justify-center px-6 py-16 relative"
+      style={{
+        backgroundImage: `url('https://cdn.poehali.dev/projects/551a6293-06bd-475b-9405-4ac4670d3f24/files/54b07910-8638-400d-81bb-d58105d29fea.jpg')`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+      }}
+    >
+      <div className="absolute inset-0 bg-black/60" />
+      <p
+        className="relative z-10 text-white/85 text-lg md:text-xl leading-[2.2] max-w-lg whitespace-pre-line"
+        style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 300 }}
+      >
         {`Во мне гниют слова,
 Которые я не сказал
 Лучше буду молчать, пока не сошла с ума моя голова,
