@@ -1,17 +1,27 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Featured from "@/components/Featured";
-import Promo from "@/components/Promo";
-import Footer from "@/components/Footer";
-
 const Index = () => {
   return (
-    <main className="min-h-screen">
-      <Header />
-      <Hero />
-      <Featured />
-      <Promo />
-      <Footer />
+    <main className="min-h-screen bg-black flex items-center justify-center px-6 py-16">
+      <p className="text-white text-base md:text-lg leading-relaxed max-w-lg whitespace-pre-line font-light">
+        {`Во мне гниют слова,
+Которые я не сказал
+Лучше буду молчать, пока не сошла с ума моя голова,
+Что бы не устроить с собою скандал.
+
+Я неразборчиво буду писать эти строки,
+Во мне гниют слова которые я все еще не сказал.
+Когда нибудь все это будет в диалоге,
+Но пока я вижу лишь себя, в отражении зеркал.
+
+Эту любовь к тебе я выдумал сам,
+И от этого страдаю уже много лет.
+Я про тебя все поэмы написал,
+Прокручивая в голове каждый момент.
+
+Ты моя последняя мысль перед сном,
+И самая первая после сна.
+Все свои чувства тебе отправлю я письмом,
+Где будут только важные слова.`}
+      </p>
     </main>
   );
 };
